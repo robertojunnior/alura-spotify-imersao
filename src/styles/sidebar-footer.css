@@ -1,5 +1,6 @@
 body {
     background-color: black;
+    font-family: var(--font-dm-sans);
 }
 
 .sidebar {
@@ -42,7 +43,7 @@ body {
     text-decoration: none;
     font-weight: 600;
     font-size: 14px;
-    font-family: "DM Sans", sans-serif;
+    
 }
 
 .library {
@@ -71,7 +72,7 @@ body {
     border: 0px;
     font-size: 14px;
     font-weight: 700;
-    font-family: "DM Sans", sans-serif;
+    font-family: var(--font-dm-sans);
     text-align: center;
     text-decoration: none;
     text-transform: none;
@@ -87,6 +88,7 @@ body {
 
 .library .library__content .fa-plus {
     margin: 24px 10px;
+    cursor: pointer;
 }
 
 .section-playlist {
@@ -111,7 +113,7 @@ body {
 .section-playlist__content .text{
     padding-bottom: 14px;
     color: #fff;
-    font-family: "DM Sans", sans-serif;
+    
 }
 
 .section-playlist__content .title{
@@ -129,8 +131,8 @@ body {
     background-color: #fff;
     color: #000;
     border-radius: 20px;
+    font-family: var(--font-dm-sans);
     font-size: 12px;
-    font-family: "DM Sans", sans-serif;
     font-weight: 700;
     padding: 10px;
     margin-top: 12px;
@@ -145,7 +147,7 @@ body {
 
 .sidebar .cookies a {
     color: #b3b3b3;
-    font-family: "DM Sans", sans-serif;
+    
     text-decoration: none;
     font-size: 11px;
 }
@@ -159,12 +161,12 @@ body {
     color: #fff;
     border-radius: 20px;
     font-size: 12px;
-    font-family: "DM Sans", sans-serif;
     font-weight: bold;
     margin: 8px;
     padding: 10px;
     border: 1px solid #878787;
     width: 170px;
+    font-family: var(--font-dm-sans);
     cursor: pointer;
 }
 
